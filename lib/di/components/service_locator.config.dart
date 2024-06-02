@@ -37,7 +37,7 @@ extension GetItInjectableX on _i1.GetIt {
     gh.factory<_i4.GetStoreHelper>(
         () => _i4.GetStoreHelper(gh<_i3.GetStorage>()));
     gh.factory<_i5.HiveHelper>(() => _i5.HiveHelper());
-    gh.singleton<_i6.SGGoRouter>(_i6.SGGoRouter());
+    gh.singleton<_i6.SGGoRouter>(() => _i6.SGGoRouter());
     await gh.factoryAsync<_i7.Dio>(
       () => networkModule.provideDio(gh<_i4.GetStoreHelper>()),
       preResolve: true,

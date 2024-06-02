@@ -38,7 +38,7 @@ void main() async {
       supportedLocales: const <Locale>[
         /// Add your supported locales here
         Locale('en'),
-        Locale('tr'),
+        Locale('ko'),
       ],
       path: Strings.localizationsPath,
       fallbackLocale: const Locale('en', ''),

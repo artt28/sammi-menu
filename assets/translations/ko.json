@@ -1,0 +1,17 @@
+{
+  "app_name": "Flutter Production Boilerplate",
+
+  "home": "홈페이지",
+  "info": "정보",
+  "intro": "안녕하세요",
+  "more": "더 알아보기",
+  "bottom_nav_first": "홈",
+  "bottom_nav_second": "정보",
+  "toggle_language": "언어 변경",
+  "toggle_theme": "테마 변경",
+  "theme_mode": "테마",
+  "theme_mode_light": "라이트",
+  "theme_mode_dark": "다크",
+  "theme_mode_system": "시스템"
+  
+}

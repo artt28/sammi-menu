@@ -90,11 +90,11 @@ class LanguageTile extends StatelessWidget {
         /// Example: Change locale
         /// The initial locale is automatically determined by the library.
         /// Changing the locale like this will persist the selected locale.
-        context.setLocale(newValue ? const Locale('tr') : const Locale('en'));
+        context.setLocale(newValue ? const Locale('ko') : const Locale('en'));
       },
       shape: const RoundedRectangleBorder(
           borderRadius: BorderRadius.all(Radius.circular(12))),
-      value: context.locale == const Locale('tr'),
+      value: context.locale == const Locale('ko'),
       title: Text(
         tr('toggle_language'),
         style:
