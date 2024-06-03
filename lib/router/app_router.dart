@@ -8,14 +8,16 @@ import '../data/getstore/get_store_helper.dart';
 import '../di/components/service_locator.dart';
 import '../features/home/home.dart';
 import '../features/info/info_screen.dart';
+import '../features/menu/menu_screen.dart';
+import '../features/welcome/welcome_screen.dart';
 import 'fade_extension.dart';
 
 GetStoreHelper getStoreHelper = getIt<GetStoreHelper>();
 
 enum SGRoute {
   home,
-  firstScreen,
-  secondScreen,
+  welCome,
+  menu,
   login,
   register,
   forgotPassword,
@@ -30,17 +32,17 @@ enum SGRoute {
 @Singleton()
 class SGGoRouter {
   final GoRouter goRoute = GoRouter(
-    initialLocation: SGRoute.firstScreen.route,
+    initialLocation: SGRoute.welCome.route,
     routes: <GoRoute>[
       GoRoute(
-        path: SGRoute.firstScreen.route,
+        path: SGRoute.welCome.route,
         builder: (BuildContext context, GoRouterState state) =>
-            const HomeScreen(),
+            const WelcomePage(),
       ).fade(),
       GoRoute(
-        path: SGRoute.secondScreen.route,
+        path: SGRoute.menu.route,
         builder: (BuildContext context, GoRouterState state) =>
-            const SecondScreen(),
+        const MenuScreen(),
       ).fade(),
     ],
   );

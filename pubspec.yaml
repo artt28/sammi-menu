@@ -1,5 +1,5 @@
-name: flutter_riverpod_template
-description: A flutter boilerplate project with riverpod 2.0 containing riverpod annotations, freezed, lints, hive, easy_translations and more
+name: sammi
+description: sammi menu app
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -69,6 +69,11 @@ dependencies:
   stack_trace: ^1.11.0
   animated_notch_bottom_bar: ^1.0.0
   water_drop_nav_bar: ^2.2.0+5
+  firebase_core: ^2.32.0
+  firebase_storage: ^11.7.7
+  firebase_auth: ^4.20.0
+  firebase_database: ^10.5.7
+  cached_network_image: ^3.3.1
 
 
 dev_dependencies:
@@ -105,6 +110,8 @@ flutter:
 
   assets:
     - assets/translations/
+    - assets/img/flags/
+    - assets/img/welcome/
 
   fonts:
     - family: Nunito

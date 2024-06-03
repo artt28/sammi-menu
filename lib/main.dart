@@ -10,13 +10,17 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:stack_trace/stack_trace.dart' as stack_trace;
 
+import 'constants/locales.dart';
 import 'constants/strings.dart';
 import 'data/hive/hive.dart';
 import 'data/hive/hive_helper.dart';
 import 'di/components/service_locator.dart';
 import 'my_app.dart';
 
+import 'package:firebase_core/firebase_core.dart';
+import 'firebase_options.dart';
 /// Try using const constructors as much as possible!
+
 
 void main() async {
   /// Initialize packages
@@ -26,6 +30,9 @@ void main() async {
   await initHive();
   await configureDependencies();
   await setPreferredOrientations();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   getIt<HiveHelper>().initHive();
   if (!kIsWeb) {
     if (Platform.isAndroid) {
@@ -35,11 +42,7 @@ void main() async {
 
   runApp(
     EasyLocalization(
-      supportedLocales: const <Locale>[
-        /// Add your supported locales here
-        Locale('en'),
-        Locale('ko'),
-      ],
+      supportedLocales: Locales.supportedLocales, // Locales 클래스에서 가져옴
       path: Strings.localizationsPath,
       fallbackLocale: const Locale('en', ''),
       child: const ProviderScope(

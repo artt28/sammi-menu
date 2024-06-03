@@ -1,6 +1,6 @@
 {
-  "app_name": "Flutter Production Boilerplate",
-
+  "app_name": "Sam-Mi Kalbi",
+  "restaurant_description": "A Korean BBQ restaurant with a 30-year tradition",
   "home": "Home",
   "info": "Info",
   "intro": "Hi, I am Eren 👋🏽",
@@ -12,6 +12,14 @@
   "theme_mode": "Theme Mode",
   "theme_mode_light": "Light",
   "theme_mode_dark": "Dark",
-  "theme_mode_system": "System"
-  
+  "theme_mode_system": "System",
+  "Beef": "Beef",
+  "Pork": "Pork",
+  "Sides": "Sides",
+  "Meals": "Meals",
+  "menu": "Menu",
+  "Cart": "Wishlist",
+  "Your cart is empty": "Your wishlist is empty",
+  "Clear Cart": "Clear Wishlist",
+  "Total": "Total"
 }

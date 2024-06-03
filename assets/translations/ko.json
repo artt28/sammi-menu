@@ -1,6 +1,6 @@
 {
-  "app_name": "Flutter Production Boilerplate",
-
+  "app_name": "영동삼미숯불갈비",
+  "restaurant_description": "30년을 이어온, 가장 한국적인 고깃집",
   "home": "홈페이지",
   "info": "정보",
   "intro": "안녕하세요",
@@ -12,6 +12,14 @@
   "theme_mode": "테마",
   "theme_mode_light": "라이트",
   "theme_mode_dark": "다크",
-  "theme_mode_system": "시스템"
-  
+  "theme_mode_system": "시스템",
+  "Beef": "소고기",
+  "menu": "메뉴",
+  "Pork": "돼지고기",
+  "Sides": "사이드 메뉴",
+  "Meals": "식사류",
+  "Cart": "주문 희망 목록",
+  "Your cart is empty": "주문 희망 목록이 비어 있습니다.",
+  "Clear Cart": "목록 비우기",
+  "Total": "총액"
 }
