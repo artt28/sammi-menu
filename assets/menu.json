@@ -1,0 +1,490 @@
+{
+  "Menu": {
+    "-N01m3nU_xampleId1": {
+      "_id": "m1",
+      "menuType": "Beef",
+      "name": {
+        "en": "Suwon Wang Galbi",
+        "ko": "수원 왕갈비",
+        "ja": "水原王カルビ",
+        "fr": "Galbi de Suwon",
+        "es": "Galbi de Suwon",
+        "th": "ซูวอนวังกัลบี",
+        "zh": "水原王烤肉",
+        "vi": "Suwon Wang Galbi"
+      },
+      "price": 45000,
+      "description": {
+        "en": "King-sized beef ribs, marinated in a sweet and savory sauce.",
+        "ko": "달콤하고 짭짤한 소스에 절인 왕갈비.",
+        "ja": "甘くて風味豊かなソースに漬け込んだ王カルビ。",
+        "fr": "Côtes de bœuf de taille royale, marinées dans une sauce sucrée et salée.",
+        "es": "Costillas de res de tamaño real, marinadas en una salsa dulce y salada.",
+        "th": "ซี่โครงเนื้อขนาดใหญ่หมักในซอสหวานและเค็ม.",
+        "zh": "在甜咸酱中腌制的巨型牛排。",
+        "vi": "Sườn bò cỡ vua, ướp trong nước sốt ngọt và mặn."
+      },
+      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/m1.jpeg",
+      "valid": true
+    },
+    "-N01m3nU_xampleId2": {
+      "_id": "m2",
+      "menuType": "Beef",
+      "name": {
+        "en": "Raw Sirloin",
+        "ko": "생 등심",
+        "ja": "生サーロイン",
+        "fr": "Filet de bœuf cru",
+        "es": "Solomillo crudo",
+        "th": "เนื้อสันในดิบ",
+        "zh": "生里脊肉",
+        "vi": "Thăn bò sống"
+      },
+      "price": 57000,
+      "description": {
+        "en": "Premium cut sirloin (150g), perfect for grilling.",
+        "ko": "구이에 적합한 최고급 등심 (150g).",
+        "ja": "グリルに最適なプレミアムカットサーロイン (150g)。",
+        "fr": "Filet de bœuf de qualité supérieure (150g), parfait pour le gril.",
+        "es": "Solomillo de corte premium (150g), perfecto para asar.",
+        "th": "เนื้อสันในเกรดพรีเมี่ยม (150g) เหมาะสำหรับการย่าง.",
+        "zh": "优质里脊肉（150克），非常适合烧烤。",
+        "vi": "Thăn bò cắt cao cấp (150g), hoàn hảo cho việc nướng."
+      },
+      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/m2.jpeg",
+      "valid": true
+    },
+    "-N01m3nU_xampleId3": {
+      "_id": "m3",
+      "menuType": "Beef",
+      "name": {
+        "en": "Marinated Sirloin",
+        "ko": "등심 주물럭",
+        "ja": "漬けサーロイン",
+        "fr": "Filet de bœuf mariné",
+        "es": "Solomillo marinado",
+        "th": "เนื้อสันในหมัก",
+        "zh": "腌制里脊肉",
+        "vi": "Thăn bò ướp"
+      },
+      "price": 57000,
+      "description": {
+        "en": "Tender sirloin (150g) marinated in a special house blend.",
+        "ko": "특제 블렌드로 양념한 부드러운 등심 주물럭 (150g).",
+        "ja": "特製ブレンドで漬け込んだ柔らかいサーロイン (150g)。",
+        "fr": "Filet de bœuf tendre (150g) mariné dans un mélange spécial de la maison.",
+        "es": "Solomillo tierno (150g) marinado en una mezcla especial de la casa.",
+        "th": "เนื้อสันในนุ่ม (150g) หมักในสูตรพิเศษของทางร้าน.",
+        "zh": "嫩里脊肉（150克），用特制的家庭混合料腌制。",
+        "vi": "Thăn bò mềm (150g) ướp trong hỗn hợp đặc biệt của nhà hàng."
+      },
+      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/m3.jpeg",
+      "valid": true
+    },
+    "-N01m3nU_xampleId4": {
+      "_id": "m4",
+      "menuType": "Beef",
+      "name": {
+        "en": "Chadolbagi",
+        "ko": "차돌박이",
+        "ja": "チャドルバギ",
+        "fr": "Chadolbagi",
+        "es": "Chadolbagi",
+        "th": "ชาโดลบากี",
+        "zh": "茶道里脊",
+        "vi": "Chadolbagi"
+      },
+      "price": 40000,
+      "description": {
+        "en": "Thinly sliced brisket (150g) with rich flavor.",
+        "ko": "풍부한 풍미를 자랑하는 얇게 썬 차돌박이 (150g).",
+        "ja": "風味豊かな薄切りチャドルバギ (150g)。",
+        "fr": "Poitrine de bœuf finement tranchée (150g) au goût riche.",
+        "es": "Pecho de res finamente rebanado (150g) con un sabor rico.",
+        "th": "เนื้อหน้าอกหั่นบาง (150g) รสชาติกลมกล่อม.",
+        "zh": "薄切牛腩（150克），味道浓郁。",
+        "vi": "Thịt ức bò thái mỏng (150g) với hương vị đậm đà."
+      },
+      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/m4.jpeg",
+      "valid": true
+    },
+    "-N01m3nU_xampleId5": {
+      "_id": "m5",
+      "menuType": "Beef",
+      "name": {
+        "en": "Beef Ribs",
+        "ko": "갈비살",
+        "ja": "牛カルビ",
+        "fr": "Côtes de bœuf",
+        "es": "Costillas de res",
+        "th": "ซี่โครงเนื้อ",
+        "zh": "牛肋骨",
+        "vi": "Sườn bò"
+      },
+      "price": 26000,
+      "description": {
+        "en": "Flavorful beef ribs (150g) with a juicy texture.",
+        "ko": "육즙이 풍부한 갈비살 (150g).",
+        "ja": "ジューシーな食感の牛カルビ (150g)。",
+        "fr": "Côtes de bœuf savoureuses (150g) à la texture juteuse.",
+        "es": "Costillas de res sabrosas (150g) con una textura jugosa.",
+        "th": "ซี่โครงเนื้อรสชาติเข้มข้น (150g) เนื้อนุ่มฉ่ำ.",
+        "zh": "味道浓郁的牛肋骨（150克），质地多汁。",
+        "vi": "Sườn bò đậm đà (150g) với kết cấu mọng nước."
+      },
+      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/m5.jpeg",
+      "valid": true
+    },
+    "-N01m3nU_xampleId6": {
+      "_id": "m6",
+      "menuType": "Beef",
+      "name": {
+        "en": "Bulgogi with Mushrooms",
+        "ko": "버섯 불고기",
+        "ja": "キノコ入りプルコギ",
+        "fr": "Bulgogi aux champignons",
+        "es": "Bulgogi con champiñones",
+        "th": "บูลโกกิพร้อมเห็ด",
+        "zh": "蘑菇烤肉",
+        "vi": "Bulgogi với nấm"
+      },
+      "price": 22000,
+      "description": {
+        "en": "Thinly sliced beef (250g) with mushrooms in a sweet soy sauce.",
+        "ko": "달콤한 간장 소스에 버섯을 넣은 얇게 썬 소고기 (250g).",
+        "ja": "甘い醤油ソースでキノコを加えた薄切り牛肉 (250g)。",
+        "fr": "Bœuf finement tranché (250g) avec des champignons dans une sauce soja sucrée.",
+        "es": "Carne de res finamente rebanada (250g) con champiñones en una salsa de soja dulce.",
+        "th": "เนื้อสไลซ์บาง (250g) พร้อมเห็ดในซอสถั่วเหลืองหวาน.",
+        "zh": "薄切牛肉（250克）配蘑菇甜酱油。",
+        "vi": "Thịt bò thái mỏng (250g) với nấm trong nước sốt đậu nành ngọt."
+      },
+      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/m6.jpeg",
+      "valid": true
+    },
+    "-N01m3nU_xampleId7": {
+      "_id": "m7",
+      "menuType": "Beef",
+      "name": {
+        "en": "LA Galbi",
+        "ko": "LA 갈비",
+        "ja": "LAカルビ",
+        "fr": "Galbi de Los Angeles",
+        "es": "Galbi de Los Ángeles",
+        "th": "LA กัลบี",
+        "zh": "洛杉矶烤排骨",
+        "vi": "LA Galbi"
+      },
+      "price": 27000,
+      "description": {
+        "en": "Marinated short ribs (250g) in a Korean BBQ style.",
+        "ko": "한국식 바비큐 스타일로 양념한 갈비 (250g).",
+        "ja": "韓国風バーベキュースタイルで漬け込んだカルビ (250g)。",
+        "fr": "Côtes courtes marinées (250g) à la mode du barbecue coréen.",
+        "es": "Costillas cortas marinadas (250g) al estilo BBQ coreano.",
+        "th": "ซี่โครงสั้นหมัก (250g) ในสไตล์บาร์บีคิวเกาหลี.",
+        "zh": "韩式烤排骨（250克）。",
+        "vi": "Sườn ngắn ướp (250g) theo phong cách BBQ Hàn Quốc."
+      },
+      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/m7.jpeg",
+      "valid": true
+    },
+    "-N01m3nU_xampleId8": {
+      "_id": "m8",
+      "menuType": "Pork",
+      "name": {
+        "en": "Pork Ribs",
+        "ko": "돼지갈비",
+        "ja": "豚カルビ",
+        "fr": "Côtes de porc",
+        "es": "Costillas de cerdo",
+        "th": "ซี่โครงหมู",
+        "zh": "猪肋骨",
+        "vi": "Sườn lợn"
+      },
+      "price": 19000,
+      "description": {
+        "en": "Succulent pork ribs (250g) marinated in a savory sauce.",
+        "ko": "감칠맛 나는 소스에 절인 육즙이 풍부한 돼지갈비 (250g).",
+        "ja": "旨味のあるソースに漬け込んだジューシーな豚カルビ (250g)。",
+        "fr": "Côtes de porc succulentes (250g) marinées dans une sauce savoureuse.",
+        "es": "Costillas de cerdo jugosas (250g) marinadas en una salsa sabrosa.",
+        "th": "ซี่โครงหมูชุ่มฉ่ำ (250g) หมักในซอสรสอร่อย.",
+        "zh": "在咸味酱中腌制的多汁猪肋骨（250克）。",
+        "vi": "Sườn lợn mọng nước (250g) ướp trong nước sốt đậm đà."
+      },
+      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/m8.jpeg",
+      "valid": true
+    },
+    "-N01m3nU_xampleId9": {
+      "_id": "m9",
+      "menuType": "Pork",
+      "name": {
+        "en": "Samgyeopsal",
+        "ko": "삼겹살",
+        "ja": "サムギョプサル",
+        "fr": "Samgyeopsal",
+        "es": "Samgyeopsal",
+        "th": "ซัมกย็อบซัล",
+        "zh": "五花肉",
+        "vi": "Samgyeopsal"
+      },
+      "price": 20000,
+      "description": {
+        "en": "Thick-cut pork belly (200g), a Korean BBQ classic.",
+        "ko": "한국 바비큐의 고전, 두껍게 썬 삼겹살 (200g).",
+        "ja": "韓国バーベキューの定番、厚切りサムギョプサル (200g)。",
+        "fr": "Poitrine de porc coupée épaisse (200g), un classique du barbecue coréen.",
+        "es": "Panceta de cerdo de corte grueso (200g), un clásico del BBQ coreano.",
+        "th": "หมูสามชั้นหั่นหนา (200g) คลาสสิกของบาร์บีคิวเกาหลี.",
+        "zh": "厚切五花肉（200克），韩国烧烤的经典。",
+        "vi": "Thịt ba chỉ cắt dày (200g), một món BBQ Hàn Quốc kinh điển."
+      },
+      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/m9.jpeg",
+      "valid": true
+    },
+    "-N01m3nU_xampleId10": {
+      "_id": "m10",
+      "menuType": "Sides",
+      "name": {
+        "en": "Nurungji (Scorched Rice)",
+        "ko": "누룽지",
+        "ja": "お焦げ",
+        "fr": "Nurungji (riz brûlé)",
+        "es": "Nurungji (arroz quemado)",
+        "th": "นูรึงจี (ข้าวไหม้)",
+        "zh": "锅巴",
+        "vi": "Nurungji (Cơm cháy)"
+      },
+      "price": 6000,
+      "description": {
+        "en": "Crunchy rice crust with a nutty flavor.",
+        "ko": "고소한 맛의 바삭한 누룽지.",
+        "ja": "香ばしい味のカリカリのお焦げ。",
+        "fr": "Croûte de riz croustillante au goût de noisette.",
+        "es": "Corteza de arroz crujiente con un sabor a nuez.",
+        "th": "ข้าวกรอบรสชาติถั่ว.",
+        "zh": "带有坚果味的脆米皮。",
+        "vi": "Cơm cháy giòn với hương vị hạt dẻ."
+      },
+      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/m10.jpeg",
+      "valid": true
+    },
+    "-N01m3nU_xampleId11": {
+      "_id": "m11",
+      "menuType": "Sides",
+      "name": {
+        "en": "Steamed Egg",
+        "ko": "계란찜",
+        "ja": "蒸し卵",
+        "fr": "Œuf cuit à la vapeur",
+        "es": "Huevo al vapor",
+        "th": "ไข่ตุ๋น",
+        "zh": "蒸蛋",
+        "vi": "Trứng hấp"
+      },
+      "price": 5000,
+      "description": {
+        "en": "Soft and fluffy steamed egg.",
+        "ko": "부드럽고 폭신한 계란찜.",
+        "ja": "柔らかくてふわふわの蒸し卵。",
+        "fr": "Œuf cuit à la vapeur doux et moelleux.",
+        "es": "Huevo al vapor suave y esponjoso.",
+        "th": "ไข่ตุ๋นนุ่มฟู.",
+        "zh": "柔软蓬松的蒸蛋。",
+        "vi": "Trứng hấp mềm và xốp."
+      },
+      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/m11.jpeg",
+      "valid": true
+    },
+    "-N01m3nU_xampleId12": {
+      "_id": "m12",
+      "menuType": "Sides",
+      "name": {
+        "en": "Marinated Raw Crab",
+        "ko": "양념게장",
+        "ja": "漬け蟹",
+        "fr": "Crabe cru mariné",
+        "es": "Cangrejo crudo marinado",
+        "th": "ปูดิบหมัก",
+        "zh": "腌制生蟹",
+        "vi": "Cua sống ướp"
+      },
+      "price": 15000,
+      "description": {
+        "en": "Fresh raw crab (500g) marinated in a spicy sauce.",
+        "ko": "매운 소스에 절인 신선한 생게 (500g).",
+        "ja": "辛いソースに漬け込んだ新鮮な生蟹 (500g)。",
+        "fr": "Crabe cru frais (500g) mariné dans une sauce épicée.",
+        "es": "Cangrejo crudo fresco (500g) marinado en una salsa picante.",
+        "th": "ปูสด (500g) หมักในซอสเผ็ด.",
+        "zh": "新鲜的生蟹（500克）用辣酱腌制。",
+        "vi": "Cua sống tươi (500g) ướp trong nước sốt cay."
+      },
+      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/m12.jpeg",
+      "valid": true
+    },
+    "-N01m3nU_xampleId13": {
+      "_id": "m13",
+      "menuType": "Meals",
+      "name": {
+        "en": "Galbi Tang (Short Rib Soup)",
+        "ko": "갈비탕",
+        "ja": "カルビタン",
+        "fr": "Galbi Tang (soupe de côtes courtes)",
+        "es": "Galbi Tang (sopa de costillas cortas)",
+        "th": "กัลบีตัง (ซุปซี่โครงสั้น)",
+        "zh": "牛肋排汤",
+        "vi": "Galbi Tang (Canh sườn bò)"
+      },
+      "price": 11000,
+      "description": {
+        "en": "Hearty soup made with beef short ribs.",
+        "ko": "소갈비로 만든 든든한 국.",
+        "ja": "牛カルビで作ったボリュームたっぷりのスープ。",
+        "fr": "Soupe copieuse à base de côtes courtes de bœuf.",
+        "es": "Sopa abundante hecha con costillas cortas de res.",
+        "th": "ซุปอร่อยทำจากซี่โครงสั้น.",
+        "zh": "用牛肋排做成的丰盛汤。",
+        "vi": "Canh thịt bò sườn ngắn thịnh soạn."
+      },
+      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/m13.jpeg",
+      "valid": true
+    },
+    "-N01m3nU_xampleId14": {
+      "_id": "m14",
+      "menuType": "Meals",
+      "name": {
+        "en": "Bulgogi Set",
+        "ko": "불고기 정식",
+        "ja": "プルコギセット",
+        "fr": "Set de Bulgogi",
+        "es": "Set de Bulgogi",
+        "th": "ชุดบูลโกกิ",
+        "zh": "烤肉套餐",
+        "vi": "Set Bulgogi"
+      },
+      "price": 9000,
+      "description": {
+        "en": "Bulgogi with rice and side dishes.",
+        "ko": "불고기와 밥, 반찬 세트.",
+        "ja": "プルコギとご飯、サイドディッシュのセット。",
+        "fr": "Bulgogi avec riz et accompagnements.",
+        "es": "Bulgogi con arroz y guarniciones.",
+        "th": "บูลโกกิพร้อมข้าวและเครื่องเคียง.",
+        "zh": "烤肉配米饭和配菜。",
+        "vi": "Bulgogi với cơm và món ăn kèm."
+      },
+      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/m14.jpeg",
+      "valid": true
+    },
+    "-N01m3nU_xampleId15": {
+      "_id": "m15",
+      "menuType": "Meals",
+      "name": {
+        "en": "Spicy Pork Stew",
+        "ko": "제육뚝배기",
+        "ja": "辛豚シチュー",
+        "fr": "Ragoût de porc épicé",
+        "es": "Estofado de cerdo picante",
+        "th": "สตูว์หมูเผ็ด",
+        "zh": "辣猪肉炖菜",
+        "vi": "Thịt lợn hầm cay"
+      },
+      "price": 9000,
+      "description": {
+        "en": "Spicy stew with tender pork and vegetables.",
+        "ko": "부드러운 돼지고기와 채소가 들어간 제육뚝배기.",
+        "ja": "柔らかい豚肉と野菜が入った辛いシチュー。",
+        "fr": "Ragoût épicé avec porc tendre et légumes.",
+        "es": "Estofado picante con cerdo tierno y verduras.",
+        "th": "สตูว์เผ็ดกับหมูนุ่มและผัก.",
+        "zh": "用嫩猪肉和蔬菜炖成的辣炖菜。",
+        "vi": "Thịt lợn hầm cay với thịt lợn mềm và rau củ."
+      },
+      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/m15.jpeg",
+      "valid": true
+    },
+    "-N01m3nU_xampleId16": {
+      "_id": "m16",
+      "menuType": "Meals",
+      "name": {
+        "en": "Arrowroot Noodles",
+        "ko": "칡냉면",
+        "ja": "葛冷麺",
+        "fr": "Nouilles d'arrowroot",
+        "es": "Fideos de arrurruz",
+        "th": "ก๋วยเตี๋ยวแป้งมัน",
+        "zh": "葛粉面",
+        "vi": "Mì dong"
+      },
+      "price": 9000,
+      "description": {
+        "en": "Cold arrowroot noodles in a tangy broth.",
+        "ko": "새콤한 국물에 담긴 차가운 칡냉면.",
+        "ja": "さっぱりとしたスープの冷たい葛冷麺。",
+        "fr": "Nouilles d'arrowroot froides dans un bouillon acidulé.",
+        "es": "Fideos de arrurruz fríos en un caldo ácido.",
+        "th": "ก๋วยเตี๋ยวแป้งมันเย็นในน้ำซุปเปรี้ยว.",
+        "zh": "酸汤葛粉冷面。",
+        "vi": "Mì dong lạnh trong nước dùng chua."
+      },
+      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/m16.jpeg",
+      "valid": true
+    },
+    "-N01m3nU_xampleId17": {
+      "_id": "m17",
+      "menuType": "Meals",
+      "name": {
+        "en": "Doenjang Bibimbap",
+        "ko": "된장 비빔밥",
+        "ja": "テンジャンビビンバ",
+        "fr": "Bibimbap au doenjang",
+        "es": "Bibimbap con doenjang",
+        "th": "บิบิมบับเต้าเจี้ยว",
+        "zh": "大酱拌饭",
+        "vi": "Bibimbap Doenjang"
+      },
+      "price": 9000,
+      "description": {
+        "en": "Rice mixed with vegetables and soybean paste.",
+        "ko": "채소와 된장으로 비벼 먹는 밥.",
+        "ja": "野菜と味噌を混ぜて食べるご飯。",
+        "fr": "Riz mélangé avec des légumes et de la pâte de soja.",
+        "es": "Arroz mezclado con verduras y pasta de soja.",
+        "th": "ข้าวผสมผักและเต้าเจี้ยว.",
+        "zh": "拌有蔬菜和大酱的米饭。",
+        "vi": "Cơm trộn với rau và tương đậu nành."
+      },
+      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/m17.jpeg",
+      "valid": true
+    },
+    "-N01m3nU_xampleId18": {
+      "_id": "m18",
+      "menuType": "Meals",
+      "name": {
+        "en": "Doenjang Jjigae (Soybean Paste Stew)",
+        "ko": "된장찌개",
+        "ja": "テンジャンチゲ",
+        "fr": "Doenjang Jjigae (ragoût de pâte de soja)",
+        "es": "Doenjang Jjigae (estofado de pasta de soja)",
+        "th": "โดนจังจิเก (สตูว์เต้าเจี้ยว)",
+        "zh": "大酱汤",
+        "vi": "Doenjang Jjigae (Canh tương đậu nành)"
+      },
+      "price": 8000,
+      "description": {
+        "en": "Savory stew made with soybean paste and vegetables.",
+        "ko": "된장과 채소로 만든 감칠맛 나는 찌개.",
+        "ja": "味噌と野菜で作った風味豊かなシチュー。",
+        "fr": "Ragoût savoureux à base de pâte de soja et de légumes.",
+        "es": "Estofado sabroso hecho con pasta de soja y verduras.",
+        "th": "สตูว์รสชาติกลมกล่อมทำจากเต้าเจี้ยวและผัก.",
+        "zh": "用大酱和蔬菜做成的咸汤。",
+        "vi": "Canh đậm đà làm từ tương đậu nành và rau củ."
+      },
+      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/m18.jpeg",
+      "valid": true
+    }
+  }
+}

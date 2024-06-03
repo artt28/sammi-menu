@@ -1,0 +1,29 @@
+{
+  "app_name": "Sam-Mi BBQ Coreano",
+  "restaurant_description": "Un restaurante de barbacoa coreana con 30 años de tradición",
+  "menu_help_message": "Después de agregar el menú deseado, presione el botón del carrito en la parte inferior derecha y muéstrelo al personal.",
+
+  "order_warning_message": "Antes de llamar al personal, por favor revise sus artículos y cantidades una vez más.",
+
+  "home": "Inicio",
+  "info": "Información",
+  "intro": "Hola",
+  "more": "Aprende más",
+  "bottom_nav_first": "Inicio",
+  "bottom_nav_second": "Información",
+  "toggle_language": "Cambiar idioma",
+  "toggle_theme": "Cambiar tema",
+  "theme_mode": "Modo de tema",
+  "theme_mode_light": "Claro",
+  "theme_mode_dark": "Oscuro",
+  "theme_mode_system": "Sistema",
+  "Beef": "Carne de res",
+  "Pork": "Carne de cerdo",
+  "Sides": "Guarniciones",
+  "Meals": "Comidas",
+  "menu": "Menú",
+  "Cart": "Lista de deseos",
+  "Your cart is empty": "Tu lista de deseos está vacía",
+  "Clear Cart": "Vaciar lista",
+  "Total": "Total"
+}

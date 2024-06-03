@@ -54,7 +54,6 @@ class _MenuTypeSectionState extends ConsumerState<MenuTypeSection> {
             imageUrl: typeImage!,
             width: double.infinity,
             height: 300,
-            // Increased height for better display
             fit: BoxFit.cover,
             errorWidget: (context, url, error) => Container(
               width: double.infinity,
@@ -72,7 +71,10 @@ class _MenuTypeSectionState extends ConsumerState<MenuTypeSection> {
           padding: const EdgeInsets.all(16.0),
           child: Text(
             widget.menuType,
-            style: Theme.of(context).textTheme.headlineMedium,
+            style: Theme.of(context).textTheme.headlineMedium!.copyWith(
+              color: Colors.brown[800],
+              fontWeight: FontWeight.bold,
+            ),
           ).tr(),
         ),
         ListView.builder(
@@ -101,9 +103,18 @@ class _MenuTypeSectionState extends ConsumerState<MenuTypeSection> {
                         errorWidget: (context, url, error) => const Icon(Icons.error),
                       )
                           : const CircularProgressIndicator(),
-                      title: Text(menu.name[context.locale.languageCode]!),
-                      subtitle: Text(menu.description[context.locale.languageCode]!),
-                      trailing: Text('₩${menu.price}'),
+                      title: Text(
+                        menu.name[context.locale.languageCode]!,
+                        style: TextStyle(color: Colors.brown[800]),
+                      ),
+                      subtitle: Text(
+                        menu.description[context.locale.languageCode]!,
+                        style: TextStyle(color: Colors.brown[600]),
+                      ),
+                      trailing: Text(
+                        '₩${menu.price}',
+                        style: TextStyle(color: Colors.brown[800], fontWeight: FontWeight.bold),
+                      ),
                       onTap: () => _toggleQuantityControls(menu, ref),
                       contentPadding: const EdgeInsets.symmetric(vertical: 8.0, horizontal: 16.0),
                     ),
@@ -141,7 +152,10 @@ class _MenuTypeSectionState extends ConsumerState<MenuTypeSection> {
             }
           },
         ),
-        Text(quantity.toString()),
+        Text(
+          quantity.toString(),
+          style: TextStyle(color: Colors.brown[800], fontWeight: FontWeight.bold),
+        ),
         IconButton(
           icon: const Icon(Icons.add),
           onPressed: () {

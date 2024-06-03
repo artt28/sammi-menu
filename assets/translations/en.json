@@ -1,6 +1,9 @@
 {
   "app_name": "Sam-Mi Kalbi",
   "restaurant_description": "A Korean BBQ restaurant with a 30-year tradition",
+  "menu_help_message": "After adding the desired menu, press the cart button at the bottom right and show it to the staff.",
+  "order_warning_message": "Before calling the staff, please review your items and quantities once more.",
+
   "home": "Home",
   "info": "Info",
   "intro": "Hi, I am Eren 👋🏽",

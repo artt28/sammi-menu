@@ -1,0 +1,22 @@
+{
+  "Menu": {
+    "-N01m3nU_xampleId1": {
+      "_id": "m1",
+      "menuType": "Beef",
+      "name": "Suwon Wang Galbi",
+      "price": 45000,
+      "description": "King-sized beef ribs, marinated in a sweet and savory sauce.",
+      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/m1.jpeg",
+      "valid": true
+    },
+    "-N01m3nU_xampleId2": {
+      "_id": "m2",
+      "menuType": "Beef",
+      "name": "Raw Sirloin",
+      "price": 57000,
+      "description": "Premium cut sirloin (150g), perfect for grilling.",
+      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/m1.jpeg",
+      "valid": true
+    }
+  }
+}

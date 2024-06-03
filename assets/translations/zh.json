@@ -1,0 +1,29 @@
+{
+  "app_name": "三味烤肉",
+  "restaurant_description": "拥有30年传统的韩国烧烤餐厅",
+  "menu_help_message": "添加所需菜单后，请按右下角的购物车按钮并出示给工作人员。",
+
+  "order_warning_message": "在叫服务员之前，请再次检查您的物品和数量。",
+
+  "home": "主页",
+  "info": "信息",
+  "intro": "你好",
+  "more": "了解更多",
+  "bottom_nav_first": "主页",
+  "bottom_nav_second": "信息",
+  "toggle_language": "更改语言",
+  "toggle_theme": "更改主题",
+  "theme_mode": "主题模式",
+  "theme_mode_light": "明亮",
+  "theme_mode_dark": "黑暗",
+  "theme_mode_system": "系统",
+  "Beef": "牛肉",
+  "Pork": "猪肉",
+  "Sides": "配菜",
+  "Meals": "餐点",
+  "menu": "菜单",
+  "Cart": "愿望清单",
+  "Your cart is empty": "你的愿望清单是空的",
+  "Clear Cart": "清空愿望清单",
+  "Total": "总计"
+}

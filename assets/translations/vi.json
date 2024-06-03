@@ -1,0 +1,28 @@
+{
+  "app_name": "Sam-Mi BBQ Hàn Quốc",
+  "restaurant_description": "Nhà hàng BBQ Hàn Quốc với truyền thống 30 năm",
+  "menu_help_message": "Sau khi thêm thực đơn mong muốn, hãy nhấn nút giỏ hàng ở dưới cùng bên phải và cho nhân viên xem.",
+  "order_warning_message": "Trước khi gọi nhân viên, vui lòng kiểm tra lại các mặt hàng và số lượng của bạn.",
+
+  "home": "Trang chủ",
+  "info": "Thông tin",
+  "intro": "Xin chào",
+  "more": "Tìm hiểu thêm",
+  "bottom_nav_first": "Trang chủ",
+  "bottom_nav_second": "Thông tin",
+  "toggle_language": "Thay đổi ngôn ngữ",
+  "toggle_theme": "Thay đổi chủ đề",
+  "theme_mode": "Chế độ chủ đề",
+  "theme_mode_light": "Sáng",
+  "theme_mode_dark": "Tối",
+  "theme_mode_system": "Hệ thống",
+  "Beef": "Thịt bò",
+  "Pork": "Thịt lợn",
+  "Sides": "Món phụ",
+  "Meals": "Bữa ăn",
+  "menu": "Thực đơn",
+  "Cart": "Danh sách mong muốn",
+  "Your cart is empty": "Danh sách mong muốn của bạn trống",
+  "Clear Cart": "Xóa danh sách",
+  "Total": "Tổng"
+}

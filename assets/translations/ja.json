@@ -1,0 +1,28 @@
+{
+  "app_name": "三味焼肉",
+  "restaurant_description": "30年の伝統を持つ韓国焼肉レストラン",
+  "menu_help_message": "希望のメニューを追加した後、右下のカートボタンを押してスタッフに見せてください。",
+  "order_warning_message": "スタッフを呼ぶ前に、注文した項目と数量をもう一度確認してください。",
+
+  "home": "ホーム",
+  "info": "情報",
+  "intro": "こんにちは",
+  "more": "もっと見る",
+  "bottom_nav_first": "ホーム",
+  "bottom_nav_second": "情報",
+  "toggle_language": "言語を変更",
+  "toggle_theme": "テーマを変更",
+  "theme_mode": "テーマモード",
+  "theme_mode_light": "ライト",
+  "theme_mode_dark": "ダーク",
+  "theme_mode_system": "システム",
+  "Beef": "牛肉",
+  "Pork": "豚肉",
+  "Sides": "サイドメニュー",
+  "Meals": "食事",
+  "menu": "メニュー",
+  "Cart": "ウィッシュリスト",
+  "Your cart is empty": "ウィッシュリストが空です",
+  "Clear Cart": "ウィッシュリストをクリア",
+  "Total": "合計"
+}
