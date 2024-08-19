@@ -13,10 +13,10 @@
   "theme_mode_dark": "Karanlık",
   "theme_mode_light": "Aydınlık",
   "theme_mode_system": "Sistem",
-  "add_to_cart": "Sepete Ekle",
-  "update_cart": "Sepeti Güncelle",
-  "remove_from_cart": "Sepetten Kaldır",
-  "added_to_cart": "Sepete eklendi: {}",
-  "updated_in_cart": "Sepet güncellendi: {}",
-  "removed_from_cart": "Sepetten kaldırıldı: {}"
+  "add_to_cart": "Dilek listesine ekle",
+  "update_cart": "Dilek listesini güncelle",
+  "remove_from_cart": "Dilek listesinden çıkar",
+  "added_to_cart": "Dilek listesine eklendi: {}",
+  "updated_in_cart": "Dilek listesi güncellendi: {}",
+  "removed_from_cart": "Dilek listesinden çıkarıldı: {}"
 }

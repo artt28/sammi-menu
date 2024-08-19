@@ -26,10 +26,10 @@
   "Your cart is empty": "Tu lista de deseos está vacía",
   "Clear Cart": "Vaciar lista",
   "Total": "Total",
-  "add_to_cart": "Agregar al carrito",
-  "update_cart": "Actualizar carrito",
-  "remove_from_cart": "Eliminar del carrito",
-  "added_to_cart": "Añadido al carrito: {}",
-  "updated_in_cart": "Actualizado en el carrito: {}",
-  "removed_from_cart": "Eliminado del carrito: {}"
+  "add_to_cart": "Agregar a la lista de deseos",
+  "update_cart": "Actualizar la lista de deseos",
+  "remove_from_cart": "Eliminar de la lista de deseos",
+  "added_to_cart": "Añadido a la lista de deseos: {}",
+  "updated_in_cart": "Actualizado en la lista de deseos: {}",
+  "removed_from_cart": "Eliminado de la lista de deseos: {}"
 }

@@ -17,7 +17,7 @@ class MenuDetailScreen extends ConsumerStatefulWidget {
 class _MenuDetailScreenState extends ConsumerState<MenuDetailScreen> {
   late int _quantity;
   late Future<String> _imageUrlFuture;
-  bool _isAlreadyInCart = false;
+  bool _isAlreadyInWishlist = false;
 
   @override
   void initState() {
@@ -27,14 +27,14 @@ class _MenuDetailScreenState extends ConsumerState<MenuDetailScreen> {
   }
 
   void _initializeQuantity() {
-    // Check if the item is already in the cart
+    // Check if the item is already in the wishlist
     final cartItems = ref.read(cartProvider);
     final cartItem = cartItems.firstWhere(
           (item) => item.menu.id == widget.menu.id,
       orElse: () => CartItem(menu: widget.menu, quantity: 0),
     );
     _quantity = cartItem.quantity > 0 ? cartItem.quantity : 1;
-    _isAlreadyInCart = cartItem.quantity > 0;
+    _isAlreadyInWishlist = cartItem.quantity > 0;
   }
 
   @override
@@ -67,9 +67,9 @@ class _MenuDetailScreenState extends ConsumerState<MenuDetailScreen> {
             ElevatedButton(
               onPressed: () {
                 if (_quantity == 0) {
-                  _removeFromCart();
+                  _removeFromWishlist();
                 } else {
-                  _addOrUpdateCart();
+                  _addOrUpdateWishlist();
                 }
                 ScaffoldMessenger.of(context).showSnackBar(
                   SnackBar(
@@ -87,7 +87,7 @@ class _MenuDetailScreenState extends ConsumerState<MenuDetailScreen> {
               ),
               child: Text(_quantity == 0
                   ? 'remove_from_cart'
-                  : _isAlreadyInCart
+                  : _isAlreadyInWishlist
                   ? 'update_cart'
                   : 'add_to_cart')
                   .tr(),
@@ -146,7 +146,7 @@ class _MenuDetailScreenState extends ConsumerState<MenuDetailScreen> {
     );
   }
 
-  void _addOrUpdateCart() {
+  void _addOrUpdateWishlist() {
     final cartItems = ref.read(cartProvider);
     final cartItem = cartItems.firstWhere(
           (item) => item.menu.id == widget.menu.id,
@@ -160,7 +160,7 @@ class _MenuDetailScreenState extends ConsumerState<MenuDetailScreen> {
     }
   }
 
-  void _removeFromCart() {
+  void _removeFromWishlist() {
     final cartItems = ref.read(cartProvider);
     final cartItem = cartItems.firstWhere(
           (item) => item.menu.id == widget.menu.id,

@@ -24,10 +24,10 @@
   "Your cart is empty": "주문 희망 목록이 비어 있습니다.",
   "Clear Cart": "목록 비우기",
   "Total": "총액",
-  "add_to_cart": "장바구니에 추가",
-  "update_cart": "장바구니 업데이트",
-  "remove_from_cart": "장바구니에서 제거",
-  "added_to_cart": "장바구니에 추가되었습니다: {}",
-  "updated_in_cart": "장바구니가 업데이트되었습니다: {}",
-  "removed_from_cart": "장바구니에서 제거되었습니다: {}"
+  "add_to_cart": "위시리스트에 추가",
+  "update_cart": "위시리스트 업데이트",
+  "remove_from_cart": "위시리스트에서 제거",
+  "added_to_cart": "위시리스트에 추가되었습니다: {}",
+  "updated_in_cart": "위시리스트가 업데이트되었습니다: {}",
+  "removed_from_cart": "위시리스트에서 제거되었습니다: {}"
 }

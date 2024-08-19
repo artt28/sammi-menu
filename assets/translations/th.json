@@ -25,10 +25,10 @@
   "Your cart is empty": "รายการที่ต้องการของคุณว่างเปล่า",
   "Clear Cart": "ล้างรายการ",
   "Total": "รวม",
-  "add_to_cart": "เพิ่มไปยังรถเข็น",
-  "update_cart": "อัปเดตรถเข็น",
-  "remove_from_cart": "ลบออกจากรถเข็น",
-  "added_to_cart": "เพิ่มลงในรถเข็น: {}",
-  "updated_in_cart": "อัปเดตในรถเข็น: {}",
-  "removed_from_cart": "ลบออกจากรถเข็น: {}"
+  "add_to_cart": "เพิ่มไปยังรายการโปรด",
+  "update_cart": "อัปเดตรายการโปรด",
+  "remove_from_cart": "ลบออกจากรายการโปรด",
+  "added_to_cart": "เพิ่มลงในรายการโปรด: {}",
+  "updated_in_cart": "อัปเดตในรายการโปรด: {}",
+  "removed_from_cart": "ลบออกจากรายการโปรด: {}"
 }

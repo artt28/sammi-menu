@@ -25,10 +25,10 @@
   "Your cart is empty": "Danh sách mong muốn của bạn trống",
   "Clear Cart": "Xóa danh sách",
   "Total": "Tổng",
-  "add_to_cart": "Thêm vào giỏ hàng",
-  "update_cart": "Cập nhật giỏ hàng",
-  "remove_from_cart": "Xóa khỏi giỏ hàng",
-  "added_to_cart": "Đã thêm vào giỏ hàng: {}",
-  "updated_in_cart": "Đã cập nhật trong giỏ hàng: {}",
-  "removed_from_cart": "Đã xóa khỏi giỏ hàng: {}"
+  "add_to_cart": "Thêm vào danh sách yêu thích",
+  "update_cart": "Cập nhật danh sách yêu thích",
+  "remove_from_cart": "Xóa khỏi danh sách yêu thích",
+  "added_to_cart": "Đã thêm vào danh sách yêu thích: {}",
+  "updated_in_cart": "Đã cập nhật trong danh sách yêu thích: {}",
+  "removed_from_cart": "Đã xóa khỏi danh sách yêu thích: {}"
 }
