@@ -21,12 +21,10 @@ class LanguageChangeButton extends StatelessWidget {
     return InkWell(
       onTap: () => _showLanguageModal(context),
       child: Container(
-        width: 60, // 버튼 너비 제한
-        height: 60, // 버튼 높이 제한
+        width: 60,
+        height: 60,
         decoration: BoxDecoration(
-          // border: Border.all(color: Colors.white, width: 2),
           boxShadow: [
-            // 그림자 효과 추가
             BoxShadow(
               color: Colors.black.withOpacity(0.2),
               spreadRadius: 2,
@@ -34,7 +32,7 @@ class LanguageChangeButton extends StatelessWidget {
               offset: Offset(0, 3),
             ),
           ],
-          shape: BoxShape.circle, // 원형으로 변경
+          shape: BoxShape.circle,
         ),
         child: Image.asset(flagAssetPath),
       ),
@@ -65,33 +63,60 @@ class _LanguageModal extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 300,
+      height: 350,
+      padding: const EdgeInsets.all(8.0),
       child: GridView.builder(
-        // ListView.builder 대신 GridView.builder 사용
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisCount: 2, // 한 줄에 두 개씩 배치
-          childAspectRatio: 5, // ListTile의 가로세로 비율 조절 (필요에 따라 변경)
+          crossAxisCount: 2,
+          crossAxisSpacing: 8.0,
+          mainAxisSpacing: 8.0,
+          childAspectRatio: 3.5, // Adjust this to fit the text better
         ),
         itemCount: supportedLocales.length,
         itemBuilder: (context, index) {
           final locale = supportedLocales[index];
           final flagAssetPath = 'assets/img/flags/$locale.png';
 
-          return ListTile(
-            leading: SizedBox(
-              // 아이콘 크기 조절
-              width: 32, // 원하는 크기로 조절 가능
-              height: 32,
-              child: Image.asset(flagAssetPath),
-            ),
-            title: Text(Locales.getNameForLocale(locale)),
-            // 풀네임 가져오기
+          return GestureDetector(
             onTap: () {
               onLocaleChanged(context, locale);
               Navigator.pop(context);
             },
-            contentPadding: EdgeInsets.symmetric(horizontal: 16, vertical: 8), // ListTile 내부 여백 조절
-            minVerticalPadding: 4, // ListTile 최소 세로 여백 조절
+            child: Container(
+              padding: const EdgeInsets.symmetric(vertical: 8.0, horizontal: 8.0),
+              decoration: BoxDecoration(
+                color: Colors.white, // Background color
+                borderRadius: BorderRadius.circular(8.0),
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.black12,
+                    spreadRadius: 1,
+                    blurRadius: 5,
+                    offset: Offset(0, 3),
+                  ),
+                ],
+              ),
+              child: Row(
+                children: [
+                  SizedBox(
+                    width: 32,
+                    height: 32,
+                    child: Image.asset(flagAssetPath),
+                  ),
+                  const SizedBox(width: 8),
+                  Expanded(
+                    child: Text(
+                      Locales.getNameForLocale(locale),
+                      style: TextStyle(
+                        fontSize: 14,
+                        color: Colors.black, // Ensure the text is visible
+                      ),
+                      overflow: TextOverflow.ellipsis,
+                    ),
+                  ),
+                ],
+              ),
+            ),
           );
         },
       ),
@@ -100,7 +125,7 @@ class _LanguageModal extends StatelessWidget {
 }
 
 class LanguageButtonWrapper extends StatelessWidget {
-  final Widget child; // AppBar 아래에 위치할 콘텐츠
+  final Widget child;
   final List<String> supportedLocales;
   final Function(BuildContext context, String newLocale) onLocaleChanged;
 
@@ -115,7 +140,7 @@ class LanguageButtonWrapper extends StatelessWidget {
   Widget build(BuildContext context) {
     return Stack(
       children: [
-        child, // 배경 이미지 또는 콘텐츠
+        child,
         Positioned(
           top: 16,
           right: 16,

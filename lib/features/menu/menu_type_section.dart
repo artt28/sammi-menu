@@ -1,5 +1,3 @@
-// features/menu/menu_type_section.dart
-
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:cached_network_image/cached_network_image.dart';
@@ -113,9 +111,12 @@ class _MenuTypeSectionState extends ConsumerState<MenuTypeSection> {
                         style: TextStyle(color: Colors.brown[800], fontWeight: FontWeight.bold),
                       ),
                       onTap: () {
-                        // Navigate to the detail screen
+                        // Navigate to the detail screen, passing the preloaded image URL
                         Navigator.of(context).push(MaterialPageRoute(
-                          builder: (context) => MenuDetailScreen(menu: menu),
+                          builder: (context) => MenuDetailScreen(
+                            menu: menu,
+                            imageUrl: menuImages[menu]!, // Pass the preloaded image URL
+                          ),
                         ));
                       },
                       contentPadding: const EdgeInsets.symmetric(vertical: 8.0, horizontal: 16.0),
