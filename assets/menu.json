@@ -24,7 +24,7 @@
         "zh": "在甜咸酱中腌制的巨型牛排。",
         "vi": "Sườn bò cỡ vua, ướp trong nước sốt ngọt và mặn."
       },
-      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/m1.jpeg",
+      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/suwon_wang.jpg",
       "valid": true
     },
     "-N01m3nU_xampleId2": {
@@ -51,7 +51,7 @@
         "zh": "优质里脊肉（150克），非常适合烧烤。",
         "vi": "Thăn bò cắt cao cấp (150g), hoàn hảo cho việc nướng."
       },
-      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/m2.jpeg",
+      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/sirloin.jpg",
       "valid": true
     },
     "-N01m3nU_xampleId3": {
@@ -78,7 +78,7 @@
         "zh": "嫩里脊肉（150克），用特制的家庭混合料腌制。",
         "vi": "Thăn bò mềm (150g) ướp trong hỗn hợp đặc biệt của nhà hàng."
       },
-      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/m3.jpeg",
+      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/marinated_sirloin.jpg",
       "valid": true
     },
     "-N01m3nU_xampleId4": {
@@ -105,7 +105,7 @@
         "zh": "薄切牛腩（150克），味道浓郁。",
         "vi": "Thịt ức bò thái mỏng (150g) với hương vị đậm đà."
       },
-      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/m4.jpeg",
+      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/chadol.jpg",
       "valid": true
     },
     "-N01m3nU_xampleId5": {
@@ -132,7 +132,7 @@
         "zh": "味道浓郁的牛肋骨（150克），质地多汁。",
         "vi": "Sườn bò đậm đà (150g) với kết cấu mọng nước."
       },
-      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/m5.jpeg",
+      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/galbisal.jpg",
       "valid": true
     },
     "-N01m3nU_xampleId6": {
@@ -159,7 +159,7 @@
         "zh": "薄切牛肉（250克）配蘑菇甜酱油。",
         "vi": "Thịt bò thái mỏng (250g) với nấm trong nước sốt đậu nành ngọt."
       },
-      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/m6.jpeg",
+      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/mushroom_bulgogi.jpg",
       "valid": true
     },
     "-N01m3nU_xampleId7": {
@@ -186,7 +186,7 @@
         "zh": "韩式烤排骨（250克）。",
         "vi": "Sườn ngắn ướp (250g) theo phong cách BBQ Hàn Quốc."
       },
-      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/m7.jpeg",
+      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/la_galbi.jpg",
       "valid": true
     },
     "-N01m3nU_xampleId8": {
@@ -213,7 +213,7 @@
         "zh": "在咸味酱中腌制的多汁猪肋骨（250克）。",
         "vi": "Sườn lợn mọng nước (250g) ướp trong nước sốt đậm đà."
       },
-      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/m8.jpeg",
+      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/porkrib.jpg",
       "valid": true
     },
     "-N01m3nU_xampleId9": {
@@ -240,7 +240,7 @@
         "zh": "厚切五花肉（200克），韩国烧烤的经典。",
         "vi": "Thịt ba chỉ cắt dày (200g), một món BBQ Hàn Quốc kinh điển."
       },
-      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/m9.jpeg",
+      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/samgyeopsal.jpg",
       "valid": true
     },
     "-N01m3nU_xampleId10": {
@@ -348,7 +348,7 @@
         "zh": "用牛肋排做成的丰盛汤。",
         "vi": "Canh thịt bò sườn ngắn thịnh soạn."
       },
-      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/m13.jpeg",
+      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/galbitang.jpg",
       "valid": true
     },
     "-N01m3nU_xampleId14": {
@@ -375,7 +375,7 @@
         "zh": "烤肉配米饭和配菜。",
         "vi": "Bulgogi với cơm và món ăn kèm."
       },
-      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/m14.jpeg",
+      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/bulgogi_set.jpg",
       "valid": true
     },
     "-N01m3nU_xampleId15": {
@@ -402,7 +402,7 @@
         "zh": "用嫩猪肉和蔬菜炖成的辣炖菜。",
         "vi": "Thịt lợn hầm cay với thịt lợn mềm và rau củ."
       },
-      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/m15.jpeg",
+      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/spicypork.jpg",
       "valid": true
     },
     "-N01m3nU_xampleId16": {
@@ -429,7 +429,7 @@
         "zh": "酸汤葛粉冷面。",
         "vi": "Mì dong lạnh trong nước dùng chua."
       },
-      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/m16.jpeg",
+      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/coldnoodle.jpg",
       "valid": true
     },
     "-N01m3nU_xampleId17": {
@@ -456,7 +456,7 @@
         "zh": "拌有蔬菜和大酱的米饭。",
         "vi": "Cơm trộn với rau và tương đậu nành."
       },
-      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/m17.jpeg",
+      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/soybibim.jpg",
       "valid": true
     },
     "-N01m3nU_xampleId18": {
@@ -483,7 +483,7 @@
         "zh": "用大酱和蔬菜做成的咸汤。",
         "vi": "Canh đậm đà làm từ tương đậu nành và rau củ."
       },
-      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/m18.jpeg",
+      "imageUrl": "gs://sammi-46606.appspot.com/images/menu/soysoup.jpg",
       "valid": true
     }
   }

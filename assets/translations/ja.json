@@ -24,5 +24,11 @@
   "Cart": "ウィッシュリスト",
   "Your cart is empty": "ウィッシュリストが空です",
   "Clear Cart": "ウィッシュリストをクリア",
-  "Total": "合計"
+  "Total": "合計",
+  "add_to_cart": "カートに追加",
+  "update_cart": "カートを更新",
+  "remove_from_cart": "カートから削除",
+  "added_to_cart": "カートに追加しました: {}",
+  "updated_in_cart": "カートを更新しました: {}",
+  "removed_from_cart": "カートから削除しました: {}"
 }

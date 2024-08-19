@@ -25,5 +25,11 @@
   "Cart": "愿望清单",
   "Your cart is empty": "你的愿望清单是空的",
   "Clear Cart": "清空愿望清单",
-  "Total": "总计"
+  "Total": "总计",
+  "add_to_cart": "加入购物车",
+  "update_cart": "更新购物车",
+  "remove_from_cart": "从购物车中移除",
+  "added_to_cart": "已加入购物车: {}",
+  "updated_in_cart": "已更新购物车: {}",
+  "removed_from_cart": "已从购物车中移除: {}"
 }

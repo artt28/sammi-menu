@@ -24,5 +24,11 @@
   "Cart": "Wishlist",
   "Your cart is empty": "Your wishlist is empty",
   "Clear Cart": "Clear Wishlist",
-  "Total": "Total"
+  "Total": "Total",
+  "add_to_cart": "Add to Cart",
+  "update_cart": "Update Cart",
+  "remove_from_cart": "Remove from Cart",
+  "added_to_cart": "Added to cart: {}",
+  "updated_in_cart": "Updated in cart: {}",
+  "removed_from_cart": "Removed from cart: {}"
 }

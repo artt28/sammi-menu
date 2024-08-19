@@ -25,7 +25,7 @@ Future<String> getImageUrl(String imageUrl) async {
     }
     return imageUrl;
   } catch (e) {
-    print('Error getting image URL: $e');
+    print('Error getting image URL: $e, $imageUrl');
     return '';
   }
 }

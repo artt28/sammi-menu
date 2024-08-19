@@ -12,5 +12,11 @@
   "theme_mode": "Tema Modu",
   "theme_mode_dark": "Karanlık",
   "theme_mode_light": "Aydınlık",
-  "theme_mode_system": "Sistem"
+  "theme_mode_system": "Sistem",
+  "add_to_cart": "Sepete Ekle",
+  "update_cart": "Sepeti Güncelle",
+  "remove_from_cart": "Sepetten Kaldır",
+  "added_to_cart": "Sepete eklendi: {}",
+  "updated_in_cart": "Sepet güncellendi: {}",
+  "removed_from_cart": "Sepetten kaldırıldı: {}"
 }

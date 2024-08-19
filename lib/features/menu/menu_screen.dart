@@ -6,6 +6,7 @@ import '../../data/models/menu.dart';
 import '../../data/models/menu_logic.dart';
 import 'menu_type_section.dart';
 import 'cart_modal.dart';
+import 'dart:async';
 
 class MenuScreen extends StatefulWidget {
   const MenuScreen({Key? key}) : super(key: key);
@@ -18,6 +19,7 @@ class _MenuScreenState extends State<MenuScreen> with SingleTickerProviderStateM
   bool _showHelpMessage = true;
   late AnimationController _controller;
   late Animation<double> _fadeAnimation;
+  Timer? _hideHelpMessageTimer;
 
   @override
   void initState() {
@@ -35,6 +37,11 @@ class _MenuScreenState extends State<MenuScreen> with SingleTickerProviderStateM
     WidgetsBinding.instance.addPostFrameCallback((_) {
       _controller.forward();
     });
+
+    // Hide the help message after a delay
+    _hideHelpMessageTimer = Timer(const Duration(seconds: 5), () {
+      _toggleHelpMessage();
+    });
   }
 
   void _onLocaleChanged(BuildContext context) {
@@ -46,16 +53,29 @@ class _MenuScreenState extends State<MenuScreen> with SingleTickerProviderStateM
   }
 
   void _toggleHelpMessage() {
-    _controller.reverse().then((_) {
-      setState(() {
-        _showHelpMessage = false;
+    if (_showHelpMessage) {
+      _controller.reverse().then((_) {
+        setState(() {
+          _showHelpMessage = false;
+        });
       });
-    });
+    } else {
+      setState(() {
+        _showHelpMessage = true;
+        _controller.reset();
+        _controller.forward();
+      });
+      _hideHelpMessageTimer?.cancel();
+      _hideHelpMessageTimer = Timer(const Duration(seconds: 5), () {
+        _toggleHelpMessage();
+      });
+    }
   }
 
   @override
   void dispose() {
     _controller.dispose();
+    _hideHelpMessageTimer?.cancel();
     super.dispose();
   }
 
@@ -131,6 +151,15 @@ class _MenuScreenState extends State<MenuScreen> with SingleTickerProviderStateM
                           ),
                         ),
                       ),
+                    Positioned(
+                      bottom: 80,
+                      right: 16,
+                      child: FloatingActionButton(
+                        backgroundColor: Colors.grey,
+                        onPressed: _toggleHelpMessage,
+                        child: const Icon(Icons.help_outline, color: Colors.white),
+                      ),
+                    ),
                     Positioned(
                       bottom: 16,
                       right: 16,

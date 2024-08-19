@@ -1,3 +1,5 @@
+// features/menu/menu_type_section.dart
+
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:cached_network_image/cached_network_image.dart';
@@ -6,6 +8,7 @@ import 'package:easy_localization/easy_localization.dart';
 import '../../data/models/menu.dart';
 import '../../common/image/image_helpers.dart';
 import '../../common/shoplist/cart_logic.dart';
+import 'menu_detail_screen.dart';
 
 class MenuTypeSection extends ConsumerStatefulWidget {
   final String menuType;
@@ -85,12 +88,6 @@ class _MenuTypeSectionState extends ConsumerState<MenuTypeSection> {
             final menu = widget.menuList[index];
             return Consumer(
               builder: (context, ref, child) {
-                final cartItems = ref.watch(cartProvider);
-                final cartItem = cartItems.firstWhere(
-                      (item) => item.menu == menu,
-                  orElse: () => CartItem(menu: menu, quantity: 0),
-                );
-
                 return Column(
                   children: [
                     ListTile(
@@ -115,51 +112,18 @@ class _MenuTypeSectionState extends ConsumerState<MenuTypeSection> {
                         '₩${menu.price}',
                         style: TextStyle(color: Colors.brown[800], fontWeight: FontWeight.bold),
                       ),
-                      onTap: () => _toggleQuantityControls(menu, ref),
+                      onTap: () {
+                        // Navigate to the detail screen
+                        Navigator.of(context).push(MaterialPageRoute(
+                          builder: (context) => MenuDetailScreen(menu: menu),
+                        ));
+                      },
                       contentPadding: const EdgeInsets.symmetric(vertical: 8.0, horizontal: 16.0),
                     ),
-                    if (cartItem.quantity > 0) _buildQuantityControls(menu, ref, cartItem.quantity),
                   ],
                 );
               },
             );
-          },
-        ),
-      ],
-    );
-  }
-
-  void _toggleQuantityControls(Menu menu, WidgetRef ref) {
-    final cartItems = ref.read(cartProvider);
-    final cartItem = cartItems.firstWhere(
-          (item) => item.menu == menu,
-      orElse: () => CartItem(menu: menu, quantity: 0),
-    );
-    if (cartItem.quantity == 0) {
-      ref.read(cartProvider.notifier).addToCart(menu, 1);
-    }
-  }
-
-  Widget _buildQuantityControls(Menu menu, WidgetRef ref, int quantity) {
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.end,
-      children: [
-        IconButton(
-          icon: const Icon(Icons.remove),
-          onPressed: () {
-            if (quantity > 0) {
-              ref.read(cartProvider.notifier).addToCart(menu, -1);
-            }
-          },
-        ),
-        Text(
-          quantity.toString(),
-          style: TextStyle(color: Colors.brown[800], fontWeight: FontWeight.bold),
-        ),
-        IconButton(
-          icon: const Icon(Icons.add),
-          onPressed: () {
-            ref.read(cartProvider.notifier).addToCart(menu, 1);
           },
         ),
       ],

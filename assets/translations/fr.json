@@ -24,5 +24,12 @@
   "Cart": "Liste de souhaits",
   "Your cart is empty": "Votre liste de souhaits est vide",
   "Clear Cart": "Effacer la liste",
-  "Total": "Total"
+  "Total": "Total",
+  "add_to_cart": "Ajouter au panier",
+  "update_cart": "Mettre à jour le panier",
+  "remove_from_cart": "Retirer du panier",
+  "added_to_cart": "Ajouté au panier : {}",
+  "updated_in_cart": "Mis à jour dans le panier : {}",
+  "removed_from_cart": "Retiré du panier : {}"
+
 }

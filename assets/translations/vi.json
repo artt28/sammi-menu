@@ -24,5 +24,11 @@
   "Cart": "Danh sách mong muốn",
   "Your cart is empty": "Danh sách mong muốn của bạn trống",
   "Clear Cart": "Xóa danh sách",
-  "Total": "Tổng"
+  "Total": "Tổng",
+  "add_to_cart": "Thêm vào giỏ hàng",
+  "update_cart": "Cập nhật giỏ hàng",
+  "remove_from_cart": "Xóa khỏi giỏ hàng",
+  "added_to_cart": "Đã thêm vào giỏ hàng: {}",
+  "updated_in_cart": "Đã cập nhật trong giỏ hàng: {}",
+  "removed_from_cart": "Đã xóa khỏi giỏ hàng: {}"
 }
