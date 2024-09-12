@@ -29,5 +29,9 @@
   "remove_from_cart": "위시리스트에서 제거",
   "added_to_cart": "위시리스트에 추가되었습니다: {}",
   "updated_in_cart": "위시리스트가 업데이트되었습니다: {}",
-  "removed_from_cart": "위시리스트에서 제거되었습니다: {}"
+  "removed_from_cart": "위시리스트에서 제거되었습니다: {}",
+  "meat_order_notice": "고기 메뉴는 1인당 1개 이상 주문해야 합니다.",
+  "dinner_meal_notice": "점심시간을 제외하고, 식사류는 고기를 주문한 경우에만 가능합니다.",
+  "show_to_staff": "이 내용을 직원에게 보여주세요.",
+  "print_order": "주문서 출력"
 }

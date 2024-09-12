@@ -3,7 +3,6 @@
   "restaurant_description": "A Korean BBQ restaurant with a 30-year tradition",
   "menu_help_message": "After adding the desired menu, press the cart button at the bottom right and show it to the staff.",
   "order_warning_message": "Before calling the staff, please review your items and quantities once more.",
-
   "home": "Home",
   "info": "Info",
   "intro": "Hi, I am Eren 👋🏽",
@@ -30,5 +29,9 @@
   "remove_from_cart": "Remove from Wishlist",
   "added_to_cart": "Added to wishlist: {}",
   "updated_in_cart": "Updated in wishlist: {}",
-  "removed_from_cart": "Removed from wishlist: {}"
+  "removed_from_cart": "Removed from wishlist: {}",
+  "meat_order_notice": "Each person must order at least one meat dish.",
+  "dinner_meal_notice": "Meals can only be ordered with meat dishes, except during lunch time.",
+  "show_to_staff": "Please show this to the staff.",
+  "print_order": "Print Order"
 }

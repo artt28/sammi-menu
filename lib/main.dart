@@ -18,9 +18,10 @@ import 'di/components/service_locator.dart';
 import 'my_app.dart';
 
 import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'firebase_options.dart';
-/// Try using const constructors as much as possible!
 
+/// Try using const constructors as much as possible!
 
 void main() async {
   /// Initialize packages
@@ -33,6 +34,18 @@ void main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
+
+  // Firebase 인증 추가
+  try {
+    await FirebaseAuth.instance.signInWithEmailAndPassword(
+      email: 'user@naver.com',
+      password: '123321',
+    );
+    print('Firebase 인증 성공');
+  } catch (e) {
+    print('Firebase 인증 실패: $e');
+  }
+
   getIt<HiveHelper>().initHive();
   if (!kIsWeb) {
     if (Platform.isAndroid) {
@@ -50,6 +63,7 @@ void main() async {
       ),
     ),
   );
+
   /// Add this line to get the error stack trace in release mode
   FlutterError.demangleStackTrace = (StackTrace stack) {
     if (stack is stack_trace.Trace) return stack.vmTrace;

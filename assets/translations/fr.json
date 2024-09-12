@@ -3,7 +3,6 @@
   "restaurant_description": "Un restaurant de barbecue coréen avec 30 ans de tradition",
   "menu_help_message": "Après avoir ajouté le menu souhaité, appuyez sur le bouton du panier en bas à droite et montrez-le au personnel.",
   "order_warning_message": "Avant d'appeler le personnel, veuillez vérifier vos articles et quantités une fois de plus.",
-
   "home": "Accueil",
   "info": "Infos",
   "intro": "Bonjour",
@@ -30,6 +29,9 @@
   "remove_from_cart": "Retirer de la liste de souhaits",
   "added_to_cart": "Ajouté à la liste de souhaits : {}",
   "updated_in_cart": "Mis à jour dans la liste de souhaits : {}",
-  "removed_from_cart": "Retiré de la liste de souhaits : {}"
-
+  "removed_from_cart": "Retiré de la liste de souhaits : {}",
+  "meat_order_notice": "Chaque personne doit commander au moins un plat de viande.",
+  "dinner_meal_notice": "Les repas ne peuvent être commandés qu'avec des plats de viande, sauf pendant l'heure du déjeuner.",
+  "show_to_staff": "Veuillez montrer ceci au personnel.",
+  "print_order": "Imprimer la Commande"
 }

@@ -13,10 +13,10 @@
         "zh": "水原王烤肉",
         "vi": "Suwon Wang Galbi"
       },
-      "price": 45000,
+      "price": 48000,
       "description": {
         "en": "King-sized beef ribs, marinated in a sweet and savory sauce.",
-        "ko": "달콤하고 짭짤한 소스에 절인 왕갈비.",
+        "ko": "최상급 소의 갈비뼈에 붙어있는 도톰한 살고기를 저며서 칼집을 넣고 양념을 하여 맛이 부드럽고 담백하다",
         "ja": "甘くて風味豊かなソースに漬け込んだ王カルビ。",
         "fr": "Côtes de bœuf de taille royale, marinées dans une sauce sucrée et salée.",
         "es": "Costillas de res de tamaño real, marinadas en una salsa dulce y salada.",
@@ -40,10 +40,10 @@
         "zh": "生里脊肉",
         "vi": "Thăn bò sống"
       },
-      "price": 57000,
+      "price": 59000,
       "description": {
         "en": "Premium cut sirloin (150g), perfect for grilling.",
-        "ko": "구이에 적합한 최고급 등심 (150g).",
+        "ko": "한우 최상급부위로 부드럽고 씹을수록 고소한맛이 더하며 고기본연의 담백한맛을 느낄수 있다 (150g).",
         "ja": "グリルに最適なプレミアムカットサーロイン (150g)。",
         "fr": "Filet de bœuf de qualité supérieure (150g), parfait pour le gril.",
         "es": "Solomillo de corte premium (150g), perfecto para asar.",
@@ -67,10 +67,10 @@
         "zh": "腌制里脊肉",
         "vi": "Thăn bò ướp"
       },
-      "price": 57000,
+      "price": 59000,
       "description": {
         "en": "Tender sirloin (150g) marinated in a special house blend.",
-        "ko": "특제 블렌드로 양념한 부드러운 등심 주물럭 (150g).",
+        "ko": "한우 최상급 부위를 적당한 크기로 잘라서 약간의 양념을 해 부드럽고 고소하며 양념 맛까지 더 즐길수 있다(150g).",
         "ja": "特製ブレンドで漬け込んだ柔らかいサーロイン (150g)。",
         "fr": "Filet de bœuf tendre (150g) mariné dans un mélange spécial de la maison.",
         "es": "Solomillo tierno (150g) marinado en una mezcla especial de la casa.",
@@ -94,10 +94,10 @@
         "zh": "茶道里脊",
         "vi": "Chadolbagi"
       },
-      "price": 40000,
+      "price": 42000,
       "description": {
         "en": "Thinly sliced brisket (150g) with rich flavor.",
-        "ko": "풍부한 풍미를 자랑하는 얇게 썬 차돌박이 (150g).",
+        "ko": "한우 양지 고기로 마블링이 고소하며 숯불에 기름이 빠지며 쫄깃쫄깃한 맛이난다(150g).",
         "ja": "風味豊かな薄切りチャドルバギ (150g)。",
         "fr": "Poitrine de bœuf finement tranchée (150g) au goût riche.",
         "es": "Pecho de res finamente rebanado (150g) con un sabor rico.",
@@ -121,10 +121,10 @@
         "zh": "牛肋骨",
         "vi": "Sườn bò"
       },
-      "price": 26000,
+      "price": 28000,
       "description": {
         "en": "Flavorful beef ribs (150g) with a juicy texture.",
-        "ko": "육즙이 풍부한 갈비살 (150g).",
+        "ko": "소갈비에 뼈를 제거하고 살고기를 먹기좋게 잘라 약간의 양념을해 고소하고 담백한 맛이 난다(150g).",
         "ja": "ジューシーな食感の牛カルビ (150g)。",
         "fr": "Côtes de bœuf savoureuses (150g) à la texture juteuse.",
         "es": "Costillas de res sabrosas (150g) con una textura jugosa.",
@@ -140,7 +140,7 @@
       "menuType": "Beef",
       "name": {
         "en": "Bulgogi with Mushrooms",
-        "ko": "버섯 불고기",
+        "ko": "버섯 불고기(숯불구이가 아닌 국물요리)",
         "ja": "キノコ入りプルコギ",
         "fr": "Bulgogi aux champignons",
         "es": "Bulgogi con champiñones",
@@ -148,10 +148,10 @@
         "zh": "蘑菇烤肉",
         "vi": "Bulgogi với nấm"
       },
-      "price": 22000,
+      "price": 24000,
       "description": {
         "en": "Thinly sliced beef (250g) with mushrooms in a sweet soy sauce.",
-        "ko": "달콤한 간장 소스에 버섯을 넣은 얇게 썬 소고기 (250g).",
+        "ko": "소등심부위를 앏게 썰어 양념한국물에 재워 버섯 파 양파등을 넣고 끓여 고기는 부드럽고 국물은 따뜻하고 구수한 맛이 난다(250g).",
         "ja": "甘い醤油ソースでキノコを加えた薄切り牛肉 (250g)。",
         "fr": "Bœuf finement tranché (250g) avec des champignons dans une sauce soja sucrée.",
         "es": "Carne de res finamente rebanada (250g) con champiñones en una salsa de soja dulce.",
@@ -175,10 +175,10 @@
         "zh": "洛杉矶烤排骨",
         "vi": "LA Galbi"
       },
-      "price": 27000,
+      "price": 29000,
       "description": {
         "en": "Marinated short ribs (250g) in a Korean BBQ style.",
-        "ko": "한국식 바비큐 스타일로 양념한 갈비 (250g).",
+        "ko": "한국식 바비큐 스타일로 양념한 갈빗대 갖은양념을 넣고 재워 고기가 달고 매우 부드럽다 (250g).",
         "ja": "韓国風バーベキュースタイルで漬け込んだカルビ (250g)。",
         "fr": "Côtes courtes marinées (250g) à la mode du barbecue coréen.",
         "es": "Costillas cortas marinadas (250g) al estilo BBQ coreano.",
@@ -202,10 +202,10 @@
         "zh": "猪肋骨",
         "vi": "Sườn lợn"
       },
-      "price": 19000,
+      "price": 20000,
       "description": {
         "en": "Succulent pork ribs (250g) marinated in a savory sauce.",
-        "ko": "감칠맛 나는 소스에 절인 육즙이 풍부한 돼지갈비 (250g).",
+        "ko": "돼지갈비 부위와 질좋은 목살에 갖은 양념을해 부드럽고 담백한 맛(250g).",
         "ja": "旨味のあるソースに漬け込んだジューシーな豚カルビ (250g)。",
         "fr": "Côtes de porc succulentes (250g) marinées dans une sauce savoureuse.",
         "es": "Costillas de cerdo jugosas (250g) marinadas en una salsa sabrosa.",
@@ -229,10 +229,10 @@
         "zh": "五花肉",
         "vi": "Samgyeopsal"
       },
-      "price": 20000,
+      "price": 23000,
       "description": {
         "en": "Thick-cut pork belly (200g), a Korean BBQ classic.",
-        "ko": "한국 바비큐의 고전, 두껍게 썬 삼겹살 (200g).",
+        "ko": "녹차를 먹여 키운 최상의 돼지고기로 육질사이에 지방이 층을 이루고 있어 매우 부드럽고 양념을 하지않아 고기본연의 고소한 향이 일품(200g).",
         "ja": "韓国バーベキューの定番、厚切りサムギョプサル (200g)。",
         "fr": "Poitrine de porc coupée épaisse (200g), un classique du barbecue coréen.",
         "es": "Panceta de cerdo de corte grueso (200g), un clásico del BBQ coreano.",

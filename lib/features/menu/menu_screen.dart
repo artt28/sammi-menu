@@ -15,7 +15,8 @@ class MenuScreen extends StatefulWidget {
   _MenuScreenState createState() => _MenuScreenState();
 }
 
-class _MenuScreenState extends State<MenuScreen> with SingleTickerProviderStateMixin {
+class _MenuScreenState extends State<MenuScreen>
+    with SingleTickerProviderStateMixin {
   bool _showHelpMessage = true;
   late AnimationController _controller;
   late Animation<double> _fadeAnimation;
@@ -84,7 +85,9 @@ class _MenuScreenState extends State<MenuScreen> with SingleTickerProviderStateM
     return Scaffold(
       backgroundColor: Colors.brown[50],
       body: LanguageButtonWrapper(
-        supportedLocales: context.supportedLocales.map((locale) => locale.languageCode).toList(),
+        supportedLocales: context.supportedLocales
+            .map((locale) => locale.languageCode)
+            .toList(),
         onLocaleChanged: (context, newLocale) {
           context.setLocale(Locale(newLocale));
           _onLocaleChanged(context);
@@ -103,7 +106,8 @@ class _MenuScreenState extends State<MenuScreen> with SingleTickerProviderStateM
                       itemBuilder: (context, index) {
                         final menuType = groupedMenus.keys.elementAt(index);
                         final menuList = groupedMenus[menuType]!;
-                        return MenuTypeSection(menuType: menuType, menuList: menuList);
+                        return MenuTypeSection(
+                            menuType: menuType, menuList: menuList);
                       },
                     ),
                     if (_showHelpMessage)
@@ -157,7 +161,8 @@ class _MenuScreenState extends State<MenuScreen> with SingleTickerProviderStateM
                       child: FloatingActionButton(
                         backgroundColor: Colors.grey,
                         onPressed: _toggleHelpMessage,
-                        child: const Icon(Icons.help_outline, color: Colors.white),
+                        child:
+                            const Icon(Icons.help_outline, color: Colors.white),
                       ),
                     ),
                     Positioned(
@@ -166,13 +171,15 @@ class _MenuScreenState extends State<MenuScreen> with SingleTickerProviderStateM
                       child: FloatingActionButton(
                         backgroundColor: Colors.brown,
                         onPressed: () => _showCartModal(context, ref),
-                        child: const Icon(Icons.shopping_cart, color: Colors.white),
+                        child: const Icon(Icons.shopping_cart,
+                            color: Colors.white),
                       ),
                     ),
                   ],
                 );
               },
-              error: (error, stackTrace) => Center(child: Text('Error: $error')),
+              error: (error, stackTrace) =>
+                  Center(child: Text('Error: $error')),
               loading: () => const Center(child: CircularProgressIndicator()),
             );
           },
@@ -183,7 +190,9 @@ class _MenuScreenState extends State<MenuScreen> with SingleTickerProviderStateM
 
   Map<String, List<Menu>> _groupMenusByType(List<Menu> menus) {
     final List<String> order = ['Beef', 'Pork', 'Sides', 'Meals'];
-    final Map<String, List<Menu>> groupedMenus = {for (var type in order) type: []};
+    final Map<String, List<Menu>> groupedMenus = {
+      for (var type in order) type: []
+    };
 
     for (var menu in menus) {
       if (groupedMenus.containsKey(menu.menuType)) {
@@ -197,8 +206,10 @@ class _MenuScreenState extends State<MenuScreen> with SingleTickerProviderStateM
   void _showCartModal(BuildContext context, WidgetRef ref) {
     showModalBottomSheet(
       context: context,
+      isScrollControlled: true, // 모달의 크기를 고정
       builder: (context) => CartModal(),
-      backgroundColor: Colors.brown[50], // Customize the background color of the modal
+      backgroundColor:
+          Colors.brown[50], // Customize the background color of the modal
     );
   }
 }
