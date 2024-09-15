@@ -30,8 +30,11 @@
   "added_to_cart": "已加入愿望清单: {}",
   "updated_in_cart": "已更新愿望清单: {}",
   "removed_from_cart": "已从愿望清单中移除: {}",
-  "meat_order_notice": "每人必须点至少一个肉类菜品。",
+  "meat_order_notice": "您最初必须点至少2份肉类菜品。",
   "dinner_meal_notice": "除午餐时间外，餐点只能与肉类菜品一起点。",
   "show_to_staff": "请将此内容展示给工作人员。",
-  "print_order": "打印订单"
+  "print_order": "打印订单",
+  "bottom_nav_home": "主页",
+  "bottom_nav_menu": "菜单",
+  "bottom_nav_promotion": "促销"
 }

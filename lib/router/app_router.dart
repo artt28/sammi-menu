@@ -9,6 +9,8 @@ import '../di/components/service_locator.dart';
 import '../features/home/home.dart';
 import '../features/info/info_screen.dart';
 import '../features/menu/menu_screen.dart';
+import '../features/promotion/promotion_screen.dart';
+
 import '../features/welcome/welcome_screen.dart';
 import 'fade_extension.dart';
 
@@ -18,6 +20,7 @@ enum SGRoute {
   home,
   welCome,
   menu,
+  promotion, // 새로 추가
   login,
   register,
   forgotPassword,
@@ -32,7 +35,7 @@ enum SGRoute {
 @Singleton()
 class SGGoRouter {
   final GoRouter goRoute = GoRouter(
-    initialLocation: SGRoute.welCome.route,
+    initialLocation: SGRoute.welCome.route, // 초기 위치를 home으로 변경
     routes: <GoRoute>[
       GoRoute(
         path: SGRoute.welCome.route,
@@ -42,7 +45,12 @@ class SGGoRouter {
       GoRoute(
         path: SGRoute.menu.route,
         builder: (BuildContext context, GoRouterState state) =>
-        const MenuScreen(),
+            const MenuScreen(),
+      ).fade(),
+      GoRoute(
+        path: SGRoute.promotion.route,
+        builder: (BuildContext context, GoRouterState state) =>
+            const PromotionScreen(), // 새로운 PromotionScreen 위젯
       ).fade(),
     ],
   );

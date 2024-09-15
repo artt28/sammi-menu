@@ -112,6 +112,7 @@ flutter:
     - assets/translations/
     - assets/img/flags/
     - assets/img/welcome/
+    - assets/img/promotion/
 
   fonts:
     - family: Nunito

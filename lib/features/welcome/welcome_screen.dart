@@ -7,9 +7,15 @@ import '../../common/app_bar_gone.dart';
 import '../../common/language_change_botton/language_change_button.dart';
 import '../../constants/welcome_animation.dart';
 import '../../router/app_router.dart';
+import '../../common/bottom_nav_bar.dart';
 
 class WelcomePage extends StatefulWidget {
-  const WelcomePage({Key? key}) : super(key: key);
+  final bool openLanguageModal;
+
+  const WelcomePage({
+    Key? key,
+    this.openLanguageModal = true,
+  }) : super(key: key);
 
   @override
   _WelcomePageState createState() => _WelcomePageState();
@@ -39,10 +45,10 @@ class _WelcomePageState extends State<WelcomePage>
       parent: _controller,
       curve: Curves.easeInOut,
     )..addListener(() {
-      if (mounted) {
-        setState(() {});
-      }
-    });
+        if (mounted) {
+          setState(() {});
+        }
+      });
 
     _controller.forward();
 
@@ -77,6 +83,7 @@ class _WelcomePageState extends State<WelcomePage>
         onLocaleChanged: (context, newLocale) {
           context.setLocale(Locale(newLocale));
         },
+        initiallyOpen: widget.openLanguageModal,
         child: Stack(
           children: [
             LayoutBuilder(builder: (context, constraints) {
@@ -176,6 +183,7 @@ class _WelcomePageState extends State<WelcomePage>
           ],
         ),
       ),
+      bottomNavigationBar: const CommonBottomNavBar(currentIndex: 0),
     );
   }
 }

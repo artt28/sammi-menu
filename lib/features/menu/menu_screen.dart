@@ -1,12 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:easy_localization/easy_localization.dart';
+import 'package:go_router/go_router.dart';
 import '../../common/language_change_botton/language_change_button.dart';
 import '../../data/models/menu.dart';
 import '../../data/models/menu_logic.dart';
+import '../../router/app_router.dart';
 import 'menu_type_section.dart';
 import 'cart_modal.dart';
 import 'dart:async';
+import '../../common/bottom_nav_bar.dart';
 
 class MenuScreen extends StatefulWidget {
   const MenuScreen({Key? key}) : super(key: key);
@@ -185,6 +188,7 @@ class _MenuScreenState extends State<MenuScreen>
           },
         ),
       ),
+      bottomNavigationBar: const CommonBottomNavBar(currentIndex: 1),
     );
   }
 

@@ -30,8 +30,11 @@
   "added_to_cart": "Ajouté à la liste de souhaits : {}",
   "updated_in_cart": "Mis à jour dans la liste de souhaits : {}",
   "removed_from_cart": "Retiré de la liste de souhaits : {}",
-  "meat_order_notice": "Chaque personne doit commander au moins un plat de viande.",
+  "meat_order_notice": "Vous devez commander au moins 2 portions de plats de viande au départ.",
   "dinner_meal_notice": "Les repas ne peuvent être commandés qu'avec des plats de viande, sauf pendant l'heure du déjeuner.",
   "show_to_staff": "Veuillez montrer ceci au personnel.",
-  "print_order": "Imprimer la Commande"
+  "print_order": "Imprimer la Commande",
+  "bottom_nav_home": "Accueil",
+  "bottom_nav_menu": "Menu",
+  "bottom_nav_promotion": "Promotion"
 }

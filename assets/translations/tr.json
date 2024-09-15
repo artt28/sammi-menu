@@ -19,7 +19,7 @@
   "added_to_cart": "Dilek listesine eklendi: {}",
   "updated_in_cart": "Dilek listesi güncellendi: {}",
   "removed_from_cart": "Dilek listesinden çıkarıldı: {}",
-  "meat_order_notice": "Her kişi en az bir et yemeği sipariş etmelidir.",
+  "meat_order_notice": "Başlangıçta en az 2 porsiyon et yemeği sipariş etmelisiniz.",
   "dinner_meal_notice": "Yemekler sadece öğle yemeği saatleri dışında et yemekleri ile birlikte sipariş edilebilir.",
   "show_to_staff": "Lütfen bunu personele gösterin.",
   "print_order": "Siparişi Yazdır"

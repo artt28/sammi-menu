@@ -31,6 +31,7 @@ analyzer:
     deprecated_member_use_from_same_package: ignore
     # Turned off until null-safe rollout is complete.
     unnecessary_null_comparison: ignore
+    invalid_annotation_target: ignore
   exclude:
     - "bin/cache/**"
     # Ignore protoc generated files

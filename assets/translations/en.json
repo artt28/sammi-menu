@@ -30,8 +30,11 @@
   "added_to_cart": "Added to wishlist: {}",
   "updated_in_cart": "Updated in wishlist: {}",
   "removed_from_cart": "Removed from wishlist: {}",
-  "meat_order_notice": "Each person must order at least one meat dish.",
+  "meat_order_notice": "You must order at least 2 servings of meat dishes initially.",
   "dinner_meal_notice": "Meals can only be ordered with meat dishes, except during lunch time.",
   "show_to_staff": "Please show this to the staff.",
-  "print_order": "Print Order"
+  "print_order": "Print Order",
+  "bottom_nav_home": "Home",
+  "bottom_nav_menu": "Menu",
+  "bottom_nav_promotion": "Promotion"
 }

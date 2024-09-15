@@ -3,15 +3,35 @@ import 'package:easy_localization/easy_localization.dart';
 
 import '../../constants/locales.dart';
 
-class LanguageChangeButton extends StatelessWidget {
+class LanguageChangeButton extends StatefulWidget {
   final Function(BuildContext context, String newLocale) onLocaleChanged;
   final List<String> supportedLocales;
+  final bool initiallyOpen;
 
   const LanguageChangeButton({
     Key? key,
     required this.onLocaleChanged,
     required this.supportedLocales,
+    this.initiallyOpen = false,
   }) : super(key: key);
+
+  @override
+  _LanguageChangeButtonState createState() => _LanguageChangeButtonState();
+}
+
+class _LanguageChangeButtonState extends State<LanguageChangeButton> {
+  bool _hasShownModal = false;
+
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (widget.initiallyOpen && !_hasShownModal) {
+        _showLanguageModal(context);
+        _hasShownModal = true;
+      }
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -43,8 +63,8 @@ class LanguageChangeButton extends StatelessWidget {
     showModalBottomSheet(
       context: context,
       builder: (context) => _LanguageModal(
-        supportedLocales: supportedLocales,
-        onLocaleChanged: onLocaleChanged,
+        supportedLocales: widget.supportedLocales,
+        onLocaleChanged: widget.onLocaleChanged,
       ),
     );
   }
@@ -83,7 +103,8 @@ class _LanguageModal extends StatelessWidget {
               Navigator.pop(context);
             },
             child: Container(
-              padding: const EdgeInsets.symmetric(vertical: 8.0, horizontal: 8.0),
+              padding:
+                  const EdgeInsets.symmetric(vertical: 8.0, horizontal: 8.0),
               decoration: BoxDecoration(
                 color: Colors.white, // Background color
                 borderRadius: BorderRadius.circular(8.0),
@@ -128,12 +149,14 @@ class LanguageButtonWrapper extends StatelessWidget {
   final Widget child;
   final List<String> supportedLocales;
   final Function(BuildContext context, String newLocale) onLocaleChanged;
+  final bool initiallyOpen; // 새로운 속성 추가
 
   const LanguageButtonWrapper({
     Key? key,
     required this.child,
     required this.supportedLocales,
     required this.onLocaleChanged,
+    this.initiallyOpen = false, // 기본값은 false
   }) : super(key: key);
 
   @override
@@ -147,6 +170,7 @@ class LanguageButtonWrapper extends StatelessWidget {
           child: LanguageChangeButton(
             supportedLocales: supportedLocales,
             onLocaleChanged: onLocaleChanged,
+            initiallyOpen: initiallyOpen, // 새로운 속성 전달
           ),
         ),
       ],

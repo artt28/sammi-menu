@@ -30,8 +30,11 @@
   "added_to_cart": "Đã thêm vào danh sách yêu thích: {}",
   "updated_in_cart": "Đã cập nhật trong danh sách yêu thích: {}",
   "removed_from_cart": "Đã xóa khỏi danh sách yêu thích: {}",
-  "meat_order_notice": "Mỗi người phải đặt ít nhất một món thịt.",
+  "meat_order_notice": "Bạn phải đặt ít nhất 2 phần món thịt ban đầu.",
   "dinner_meal_notice": "Các bữa ăn chỉ có thể được đặt cùng với các món thịt, ngoại trừ trong giờ ăn trưa",
   "show_to_staff": "Vui lòng cho nhân viên xem điều này.",
-  "print_order": "In Đơn Hàng"
+  "print_order": "In Đơn Hàng",
+  "bottom_nav_home": "Trang chủ",
+  "bottom_nav_menu": "Thực đơn",
+  "bottom_nav_promotion": "Khuyến mãi"
 }
